@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+  </head>
+  <body>
+    <!--  الديف شامل كل محتويات القائمه -->
+
+    <div class="todo-continer">
+      <!-- ديف العنوان -->
+      <div class="header">
+        <h1>قائمة المهام</h1>
+      </div>
+
+      <!-- صندوق المدخلات -->
+      <div class="toDo-form">
+        <input
+          type="text"
+          class="input-item"
+          id="input-box"
+          name="input-box"
+          placeholder="أضف المهمه"
+        />
+        <button id="input-button">اضافه</button>
+      </div>
+
+      <!-- قائئمة المهام -->
+      <div class="listTask">
+        <h2>المهام</h2>
+        <ul id="list-contineer"></ul>
+      </div>
+
+      <hr />
+
+      <!-- task list counter -->
+      <div class="counter-container">
+        <div id="task-counters">
+          مكتمله: <span id="completed-counter">0</span> | قيد العمل:
+          <span id="uncompleted-counter">0</span>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

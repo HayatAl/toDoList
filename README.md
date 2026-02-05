@@ -17,6 +17,7 @@ A simple to-do list web application built with HTML, CSS, and JavaScript.
 ## Live Demo
 (https://hayatal.github.io/toDoList/)
 
-![screenshot](scrrenshoot.png)
-
+<div align="center">
+<img src="scrrenshoot.png" width="500" alt="toDo List Screen ">
+</div>
 
